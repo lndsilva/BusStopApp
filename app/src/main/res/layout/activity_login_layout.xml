@@ -33,6 +33,7 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/idEmail"
+                android:maxLength="100"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress" />
@@ -50,6 +51,7 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/idSenha"
+                android:maxLength="50"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword" />
